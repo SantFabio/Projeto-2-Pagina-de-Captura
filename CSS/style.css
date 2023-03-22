@@ -1,0 +1,135 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+header {
+    background-color: #48c5ce;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.title {
+    font-size: 26px;
+}
+
+section {
+    background-image: url(../images/people.jpg);
+    background-size: cover;
+    overflow: hidden;
+    padding: 15px;
+}
+
+.FormContainer {
+    max-width: 230px;
+    background-color: #ffffffbb;
+    padding: 20px;
+    float: right;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.mb {
+    margin-bottom: 15px;
+}
+
+input, select {
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+input[type="submit"]{
+background-color: #48c5ce;
+font-weight: bold;
+color: white;
+}
+select{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-image: url(../images/arrow.jpg);
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 10px);
+    background-position-y: center;
+}
+footer{
+    background-color: #202121;
+    padding: 35px;
+    text-align: center;
+}
+img{
+    width: 160px;
+}
+.description{
+    color: #ffffff;
+    display: inline-block;
+    max-width: 40%;
+    margin-left: 40px;
+    text-align: left;
+    
+}
+.description h3, .description p{
+    margin-bottom: 20px;
+}
+.description h3{
+    font-size: 24px;
+}
+@media screen and (max-width: 650px) { 
+    .title {
+        font-size: 16px;
+    }
+    
+    .FormContainer {
+        max-width: 100%;
+        background-color: #ffffff06;
+        padding: 20px;
+        margin: 40px;
+        float: none;
+    }
+    footer{
+        margin-bottom: 50px;
+    }
+    input, select {
+        padding: 20px;
+    }
+    h2 {
+        font-size: 16px;
+    }
+    
+    .mb {
+        margin-bottom: 15px;
+        color: white;
+    }
+    footer{
+        padding: 35px;
+        text-align: center;
+    }
+    img{
+        margin-bottom: 20px;
+    }
+    .description{
+        display: block;
+        max-width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+    .description h3{
+        font-size: 24px;
+        text-align: center;
+    }
+}
